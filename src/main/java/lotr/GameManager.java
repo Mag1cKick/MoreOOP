@@ -1,3 +1,4 @@
+package lotr;
 public class GameManager {
     public void fight(Character c1, Character c2){
         String name1 = c1.getClass().getSimpleName();

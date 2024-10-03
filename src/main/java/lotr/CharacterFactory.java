@@ -1,3 +1,4 @@
+package lotr;
 import java.util.Random;
 
 public class CharacterFactory{

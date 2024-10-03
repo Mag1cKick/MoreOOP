@@ -1,10 +1,12 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import lotr.Elf;
+import lotr.Hobbit;
 
 public class ElfTest {
-    private Character character;
+    private Elf character;
 
     @BeforeEach
     public void init() {
@@ -22,4 +24,3 @@ public class ElfTest {
         assertEquals(0, hobbit.getHp());
     }
 }
-

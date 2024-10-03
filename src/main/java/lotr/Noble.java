@@ -1,3 +1,4 @@
+package lotr;
 import java.util.Random;
 
 public abstract class Noble extends Character{
